@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventTickets", "EventTickets\EventTickets.csproj", "{2B3B9239-10BE-47A4-A04A-39D2F38AE1BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E3DDCB34-EBAF-4FDA-8A48-C13B0A914E10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F11C0558-6426-4932-92B9-358D1BB98E70}"
+	ProjectSection(SolutionItems) = preProject
+		Probando.cs = Probando.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTickets.ShoppingBasket", "EventTickets.ShoppingBasket\EventTickets.ShoppingBasket.csproj", "{0AC98DBB-99E0-406C-8217-9566460856C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B3B9239-10BE-47A4-A04A-39D2F38AE1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3B9239-10BE-47A4-A04A-39D2F38AE1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3B9239-10BE-47A4-A04A-39D2F38AE1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3B9239-10BE-47A4-A04A-39D2F38AE1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC98DBB-99E0-406C-8217-9566460856C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC98DBB-99E0-406C-8217-9566460856C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC98DBB-99E0-406C-8217-9566460856C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC98DBB-99E0-406C-8217-9566460856C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B3B9239-10BE-47A4-A04A-39D2F38AE1BB} = {E3DDCB34-EBAF-4FDA-8A48-C13B0A914E10}
+		{0AC98DBB-99E0-406C-8217-9566460856C1} = {E3DDCB34-EBAF-4FDA-8A48-C13B0A914E10}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8B48340-6DFD-4F0D-B708-D0E3B74FB413}
+	EndGlobalSection
+EndGlobal
